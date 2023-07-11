@@ -1,0 +1,50 @@
+.community-single {
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 5px;
+
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+  }
+  
+  .community-single h1,
+  .community-single p {
+    margin: 0 0 1rem 0;
+  }
+
+  .author{
+    padding-top: 1%;
+  }
+  
+  .date
+  {
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.hr1,.hr2{
+    border: 1px solid gray;
+}
+
+  
+  .comm-idx {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .comm-title {
+    font-size: 15px;
+    margin-bottom: 1rem;
+  }
+
+  .comm-img img{
+    max-width: 100%;
+    max-height: 300px;
+  }

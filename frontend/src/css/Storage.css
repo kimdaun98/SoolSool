@@ -1,0 +1,99 @@
+/* 타이틀부분 */
+.Storage{
+  margin-bottom: 5%;
+}
+
+.Storage_container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.Storage_Main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.Storage_Box > img {
+  width: 100%;
+}
+
+.Storage_Box {
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+}
+
+.Storage_Box:hover img {
+  filter: brightness(0.7);
+}
+
+.Storage_Box_description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
+}
+
+.Storage_Box:hover .Storage_Box_description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.Storage_container > h1 {
+  text-align: center;
+  width: 100%;
+  padding-top: 1.7%;
+}
+
+.Storage_container_2 > div {
+  display: flex;
+  padding-left: 35%;
+  background-color: rgb(240, 240, 240);
+}
+
+.Storage_container_2 > div {
+  margin-bottom: 3%;
+}
+
+.Storage_container_button_1 {
+  background-image: url("https://www.sooldamhwa.com/images/modules/damhwaMarket/category/icon_takju.png");
+}
+
+.Storage_container_2 > div > div > button {
+  border: none;
+}
+
+.Storage_container_2 > div > div {
+  display: flex;
+}
+
+.Storage_container_2 > div > div > button > img {
+  border: none;
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.Storage_container_2 > div > div > button {
+  margin: 3%;
+}
+
+.Storage_Box > img {
+  border-radius: 7%;
+}
+
+.Storage_Box > p {
+  border-radius: 7%;
+  font-size: 12px;
+}
+
+.Storage_Box_description {
+  font-size: 12px; /* 원하는 폰트 크기로 수정하세요 */
+}

@@ -1,0 +1,105 @@
+
+
+/* ----커뮤니티 타이틀---- */
+.community-header{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.community-header h1{
+  text-align: center;
+  width: 100%;
+}
+
+/* .community-header > h1 {
+  display: inline-block;
+  font-size: 30px;
+} */
+
+/* ----커뮤니티 전체---- */
+.community-table-container{
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+/* ----커뮤니티 내용---- */
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.table-row-header{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1%;
+}
+
+.table-row  {
+  display: flex;
+  justify-content: left;
+  /* align-items: center; */
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+
+.table-row > .contents-idx{
+  width: 10%;
+}
+
+.table-row-contents{
+  width : 80%;
+  height: 40px;
+}
+
+.contents-title{
+  font-weight : bold;
+}
+
+.contents-title{
+  margin-bottom: 1%;
+}
+
+.contents-writer{
+  margin-bottom: 1%;
+}
+
+.storageImg {
+  width: 110%; 
+  height: 150px; 
+}
+.community{
+  height: 1050px;
+}
+.Community > div {
+  font-size: 10px; 
+}
+
+.community-hr{
+  background: gray;
+  height:1px;
+  /* border-width: 5px; */
+}
+
+.table-row-hr{
+  border-color:rgba(211, 211, 211, 0.423) ;
+
+}
+
+/* 버튼부분 */
+.table-row-header button{
+  width :200%;
+  height: 25px;
+  border: 0;
+  border-radius: 7%;
+}
+
+.table-row-header button:hover{
+  font-weight: bold;
+}

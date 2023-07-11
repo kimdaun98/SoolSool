@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.smhrd.soolsool.mapper.MemberMapper">
+	<select id="getMemberByMb_id" parameterType="string"
+		resultType="com.smhrd.soolsool.domain.Member">
+		SELECT * FROM TB_MEMBER WHERE MB_ID = #{mb_id}
+	</select>
+
+	<select id="login"
+		parameterType="com.smhrd.soolsool.domain.Member"
+		resultType="com.smhrd.soolsool.domain.Member">
+		SELECT * FROM TB_MEMBER WHERE MB_ID = #{mb_id} AND MB_PW =
+		#{mb_pw}
+	</select>
+
+	<select id="findById" parameterType="string"
+		resultType="com.smhrd.soolsool.domain.Member">
+		SELECT * FROM TB_MEMBER WHERE MB_ID = #{mb_id}
+	</select>
+
+	<select id="find_info"
+		resultType="com.smhrd.soolsool.domain.Member">
+		SELECT *
+		FROM tableName
+		WHERE mb_id = #{mb_id}
+	</select>
+
+
+
+	<update id="updateUserInfo"
+		parameterType="com.smhrd.soolsool.domain.Member">
+		UPDATE TB_MEMBER
+		SET
+		mb_pw = #{mb_pw},
+		mb_email = #{mb_email},
+		mb_nick = #{mb_nick}
+		WHERE
+		mb_id = #{mb_id}
+	</update>
+
+
+
+	<insert id="insertMember"
+		parameterType="com.smhrd.soolsool.domain.Member">
+		INSERT INTO TB_MEMBER (MB_ID, MB_PW, MB_EMAIL, MB_NICK)
+		VALUES (#{mb_id},
+		#{mb_pw}, #{mb_email}, #{mb_nick})
+	</insert>
+	
+	<delete id="deleteUser" parameterType="string">
+        DELETE FROM member_table WHERE id = #{deleteUser}
+    </delete>
+</mapper>

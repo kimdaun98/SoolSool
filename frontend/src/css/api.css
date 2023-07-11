@@ -1,0 +1,38 @@
+.apibox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.api_container_in2{
+    display: flex;
+}
+.apiimg_box{
+    border-radius: 3%;
+    width: 65%;
+    height: 650px;
+    margin-right: 5%;
+}
+.api_container_in{
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.api_container_in>p{
+    margin: 10%;
+}
+
+.apibox{
+    height: 850px;
+    justify-content: center;
+}
+
+.apibox>div{
+    margin: 2%;
+}
+
+.apibox>div{
+    margin: 2%;
+}
+

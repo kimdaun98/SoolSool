@@ -1,0 +1,166 @@
+.Info_container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.Info_container > h1 {
+  text-align: center;
+  width: 100%;
+}
+
+.info-title{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 80px;
+  font-size: 30px;
+}
+
+.Info_Main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 반응형 그리드 설정 */
+  gap: 1rem;
+}
+
+.Info_Box > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.Info_Box {
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+}
+
+.Info_Box:hover img {
+  filter: brightness(0.7);
+}
+
+
+
+.Info_Box_description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
+}
+
+.Info_Box:hover .Info_Box_description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.Info_Descr{
+  margin: 5%;
+  font-size: 13px;
+}
+
+/* 그 외 */
+
+
+
+/* 카테고리 선택 */
+.Info_container_2 > div {
+  display: flex;
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+  background-color: rgb(240, 240, 240);
+}
+
+@media screen and (max-width: 768px) {
+  .Info_container_2 > div {
+    padding-left: 0;
+  }
+}
+
+.Info_container_2 > div > div > button {
+  border: none;
+  color: #000;
+}
+
+.Info_container_2 > div > div {
+  display: flex;
+}
+
+.Info_container_2 > div > div > button > img {
+  border: none;
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.Info_container_2 > div > div > button {
+  margin: 3%;
+}
+.Info_Box_title{
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.Info_Main{
+  margin: 0 auto;
+  width: 90%; 
+  max-width: 1200px; 
+}
+
+.Info_Box > img {
+  border-radius: 7%;
+}
+
+.Info_Box > p {
+  border-radius: 7%;
+  font-size: 12px;
+}
+
+.Info_Box_description {
+  font-size: 12px;
+}
+
+/* 페이지네이션 */
+
+.Info_PaginationWrapper .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-top: 4%; 
+  margin-bottom: 4%;
+}
+
+.Info_PaginationWrapper .pagination li {
+  margin: 5px;
+}
+
+.Info_PaginationWrapper .pagination li a {
+  background: white;
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Info_PaginationWrapper .pagination li.active a {
+  background-color: rgba(128, 128, 128, 0.254);
+  color: #fff;
+}
+
+.Info_PaginationWrapper .pagination li a:hover {
+  background-color: #eee;
+}
+
+.Info_PaginationWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

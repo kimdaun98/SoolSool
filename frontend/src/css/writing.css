@@ -1,0 +1,62 @@
+.ck.ck-editor {
+    margin-left: 20px; /* 원하는 마진 값을 여기에 적용하세요 */
+  }
+  
+.editor-title {
+    width: 100%;
+} 
+
+.ck.ck-editor__editable:not(.ck-editor__nested-editable) {
+    min-height: 400px;
+    margin-bottom: 20px;
+}
+
+.ck-editor__top {
+    min-width: 800px;
+}
+
+.editor-container input{
+    width: 500px
+}
+
+.writing-header{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.writing-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1%;
+    
+    
+}
+
+/* .writing-btn-box{
+    border: 1px groove darkgray ;
+    background-color: whitesmoke;
+} */
+
+ .editor-container input{
+    width: 100%;
+} 
+
+.editor-container input::placeholder{
+    font-size: 13px;
+}
+.editor-container input{
+    height: 2rem;
+}
+
+.writing-btn button{
+    width: 150px;
+    height: 40px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.writing-btn button:hover{
+    font-weight: bold;
+}

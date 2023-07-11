@@ -1,0 +1,117 @@
+.mainimg {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+  
+    background-image: url("https://image-se.ycrowdy.com/20220504/CROWDY_0_202205041317510262_m5FodrGee1.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    text-shadow: 1.5px 1.5px 1.5px rgba(1, 22, 106, 0.5);
+  }
+
+  .mainimg_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .mainimg_2_1 {
+    margin-top: 2.5%;
+    width: 40%;
+    height: 100px;
+    background-image: 
+    url("https://static.vecteezy.com/system/resources/thumbnails/015/084/715/small_2x/wood-wine-cabinet-icon-outline-bar-liquor-vector.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1.5px 1.5px 1.5px rgba(1, 22, 106, 0.5);
+    filter: hue-rotate(30deg);
+  }
+  
+  .mainimg_3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+    background-color: #f8f8f8;
+    height: 100px;
+    padding: 5%;
+    color: black;
+    font-size: 20px;
+  }
+  
+
+  /* hr 태그 - 선 */
+  .mainBox>hr:first-of-type {
+    height: 10px;
+    border: none;
+    background-color: whitesmoke;
+  }
+  
+  .mainBox>hr:nth-of-type(2) {
+    height: 10px;
+    border: none;
+    background-color: #74b9ff ;
+  }
+
+  .mainBox>hr:nth-of-type(3) {
+    height: 10px;
+    border: none;
+    background-color: #fab1a0 ;
+  }
+
+/* 추천기능 부분 */
+.main-gap{
+  margin-top: 100px;
+  background-color: red;
+}
+
+.main-rec{
+  /* margin: auto; */
+  /* overflow: hidden; */
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-rec button{
+  background-color: #1B9CFC;
+  color: whitesmoke;
+  /* background-color: #54a0ff;
+  color: whitesmoke; */
+  /* background: #6c5ce7;
+  color: whitesmoke; */
+
+  border: 0px solid whitesmoke;
+  font-size: 30px;
+  /* font-weight:bold; */
+  width: 35%;
+  border-radius: 20px;
+  height: 120px; 
+  cursor: pointer;
+  
+  transition: all 0.2s linear;
+}
+
+.main-rec button:hover{
+  transform: scale(1.15);
+  font-weight: bold;
+}  
+

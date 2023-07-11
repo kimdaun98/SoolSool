@@ -1,0 +1,39 @@
+
+.archive-single {
+    background-color: white;
+    padding: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.archive-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.arc-author,
+.arc-date {
+    margin: 0;
+}
+
+.arc-image-container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.arc-image {
+    width: 100%;
+    max-width: 80%;
+    height: auto;
+    display: block;
+}
+
+.arc-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}

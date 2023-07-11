@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.smhrd.soolsool.mapper.CommunityMapper">
+
+	<resultMap id="CommunityMap"
+		type="com.smhrd.soolsool.domain.Community">
+		<result property="comm_idx" column="comm_idx" />
+		<result property="comm_title" column="comm_title" />
+		<result property="comm_content" column="comm_content" />
+		<result property="comm_at" column="comm_at" />
+		<result property="comm_file" column="comm_file" />
+		<result property="mb_id" column="mb_id" />
+		<result property="comm_likes" column="comm_likes" />
+	</resultMap>
+
+	<insert id="write"
+		parameterType="com.smhrd.soolsool.domain.Community">
+		insert into tb_community(comm_title, comm_content,
+		comm_at, comm_file,
+		mb_id, comm_likes)
+		values (#{comm_title},
+		#{comm_content}, sysdate, #{comm_file}, #{mb_id}, 0)
+	</insert>
+
+	<select id="communityList"
+		resultType="com.smhrd.soolsool.domain.Community">
+		select * from tb_community
+	</select>
+
+	<select id="getTotalCommunities" resultType="int">
+		SELECT COUNT(*) FROM
+		tb_community
+	</select>
+
+	<select id="communityListPage" resultMap="CommunityMap"
+		parameterType="map">
+		SELECT * FROM tb_community
+		ORDER BY comm_idx DESC
+		OFFSET
+		#{offset} ROWS FETCH NEXT #{size} ROWS ONLY
+	</select>
+	
+	<select id="getCommunityDetails" resultMap="CommunityMap">
+		SELECT * FROM
+		tb_community WHERE comm_idx =#{comm_idx}
+	</select>
+
+	<delete id="deleteCommunity" parameterType="map">
+		DELETE FROM community_tb
+		WHERE comm_idx = #{idx} AND mb_id = #{mb_id}
+	</delete>
+
+</mapper>

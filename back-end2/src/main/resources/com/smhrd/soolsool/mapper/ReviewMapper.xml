@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.smhrd.soolsool.mapper.ReviewMapper">
+	<select id="getReviewById" parameterType="int"
+		resultType="com.smhrd.soolsool.domain.Review">
+		SELECT rv_idx, liq_idx, mb_id, rv_content, TO_CHAR(rv_date, 'YYYY-MM-DD
+		HH24:MI:SS') AS rv_date
+		FROM TB_REVIEW WHERE rv_idx = #{rv_idx}
+	</select>
+
+	<insert id="createReview"
+		parameterType="com.smhrd.soolsool.domain.Review">
+		INSERT INTO TB_REVIEW(liq_idx, mb_id, rv_content)
+		VALUES (#{liq_idx}, #{mb_id}, #{rv_content})
+	</insert>
+
+	<select id="findByLiqIdx" parameterType="String"
+		resultType="com.smhrd.soolsool.domain.Review">
+		SELECT *
+		FROM TB_REVIEW WHERE liq_idx = #{liqIdx}
+	</select>
+
+	<delete id="deleteReview" parameterType="com.smhrd.soolsool.domain.Review">
+		DELETE FROM TB_REVIEW WHERE rv_idx = #{rv_idx} AND mb_id = #{mb_id}
+	</delete>
+</mapper>

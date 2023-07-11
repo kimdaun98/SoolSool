@@ -1,0 +1,66 @@
+.product-single {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 6% ;
+  padding-left: 24%;
+}
+
+.product-single .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.product-single .review {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 20px;
+}
+
+.product-single .liq_img img {
+  width: 100%;
+  height: auto;
+}
+
+.product-single .liq_name {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 20px;
+}
+
+.liq_name h1 {
+  font-size: 45px;
+}
+
+.product-single h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-single p {
+  margin-bottom: 10px;
+}
+
+.product-single .col-lg-12 {
+  width: 100%;
+}
+
+.liq_name {
+  display: flex;
+  text-align: left; /* 수정된 부분: 왼쪽 정렬 */
+}
+
+.reviews h2 {
+  text-align: center;
+}
+
+.review {
+  border: 1px solid white;
+}
+
+.contents{
+  padding-left: 15%;
+}
+
