@@ -1,6 +1,5 @@
-# 📎 주(酒)랑께(팀명: 술술)
+# 🍶 주(酒)랑께(팀명: 술술)
 ![메인페이지2](https://github.com/2023-SMHRD-SW-Fullstack-1/SoolSool/assets/121305570/8dd76edc-36ee-40fa-a43b-153fb046ba7f)
-
 
 
 ## 👀 서비스 소개
@@ -9,17 +8,16 @@
 <br>
 
 ## 📅 프로젝트 기간
-기획 : 2022.05.27 ~ 06.11 (2주)
-개발 : 2022.06.12 ~ 2022.06.27 (2주)
+* 기획 : 2022.05.27 ~ 06.11 (2주)
+* 개발 : 2022.06.12 ~ 2022.06.27 (2주)
 <br>
 
 ## ⭐ 주요 기능
-① 로그인/회원가입/회원수정
-② 아카이브(술창고) & 커뮤니티
-③ 전통주 정보 제공
-④ 전통주 리뷰
-⑤ 전통주 추천
-     
+* ① 로그인/회원가입/회원수정
+* ② 아카이브(술창고) & 커뮤니티
+* ③ 전통주 정보 제공
+* ④ 전통주 리뷰
+* ⑤ 전통주 추천
 <br>
 
 ## ⛏ 기술스택
@@ -78,24 +76,20 @@
 
 ## ⚙ 시스템 아키텍처
 ![시스템아키텍쳐](https://github.com/2023-SMHRD-SW-Fullstack-1/SoolSool/assets/121305570/2e3e25e0-5fb4-48c0-925f-3d2a9b4098e6)
-
 <br>
 
 ## 📌 SW유스케이스
 ![유스케이스](https://github.com/2023-SMHRD-SW-Fullstack-1/SoolSool/assets/121305570/990389c3-78e6-4bd9-a0ac-7a960c06a153)
-
 <br>
 
 ## 📌 서비스 흐름도
 ![서비스흐름도](https://github.com/2023-SMHRD-SW-Fullstack-1/SoolSool/assets/121305570/35229612-18a8-4a97-97e5-73a2bd3e4b74)
-
 <br>
 
 ## 📌 ER다이어그램
 ![ERD그램 전체 - 복사본](https://github.com/2023-SMHRD-SW-Fullstack-1/SoolSool/assets/121305570/b65086f2-92e3-45c8-b823-aabcea159dab)
-
-<br>  
-<br>  
+<br> 
+<br>
 
 
 ## 🖥 화면 구성
@@ -127,6 +121,7 @@
 ### 전통주 추천
 ![추천추천](https://github.com/2023-SMHRD-SW-Fullstack-1/SoolSool/assets/121305570/c7259cdf-342d-4c39-896c-e269d9b69ff8)
 
+<br>
 <br>
 
 ## 👨‍👩‍👦‍👦 팀원 역할
@@ -163,7 +158,7 @@
 
 <br>
 <br>
-## 🤾‍♂️ 트러블슈팅
+🤾‍♂️ 트러블슈팅
   
 * 문제1<br>
  ![트러블슈팅1](https://github.com/2023-SMHRD-SW-Fullstack-1/SoolSool/assets/121305570/63cb5893-307b-4486-8160-d64f1f77a2b3)
