@@ -126,30 +126,47 @@
 
 ## 👨‍👩‍👦‍👦 팀원 역할
 <table>
-  <tr>
-    <td align="center"><img src="https://item.kakaocdn.net/do/fd49574de6581aa2a91d82ff6adb6c0115b3f4e3c2033bfd702a321ec6eda72c" width="100" height="100"/></td>
-    <td align="center"><img src="https://mb.ntdtv.kr/assets/uploads/2019/01/Screen-Shot-2019-01-08-at-4.31.55-PM-e1546932545978.png" width="100" height="100"/></td>
-    <td align="center"><img src="https://mblogthumb-phinf.pstatic.net/20160127_177/krazymouse_1453865104404DjQIi_PNG/%C4%AB%C4%AB%BF%C0%C7%C1%B7%BB%C1%EE_%B6%F3%C0%CC%BE%F0.png?type=w2" width="100" height="100"/></td>
-    <td align="center"><img src="https://i.pinimg.com/236x/ed/bb/53/edbb53d4f6dd710431c1140551404af9.jpg" width="100" height="100"/></td>
-    <td align="center"><img src="https://pbs.twimg.com/media/B-n6uPYUUAAZSUx.png" width="100" height="100"/></td>
+ <tr>
+    <td align="center"><strong>이지희(팀장)</strong></td>
+    <td align="center"><strong>신지훈</strong></td>
+    <td align="center"><strong>윤영현</strong></td>
+    <td align="center"><strong>김다운</strong></td>
   </tr>
   <tr>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
+    <td align="center"><b>기획총괄/Frontend</b></td>
+    <td align="center"><b>기획/Frontend</b></td>
+    <td align="center"><b>DB/Backend</b></td>
+    <td align="center"><b>Frontend/Backend</b></td>
   </tr>
   <tr>
-    <td align="center"><b>Frontend</b></td>
-    <td align="center"><b>Frontend</b></td>
+    <td align="center">
+        * [프론트엔드]
+        * 커뮤니티, 술창고, 전통주 정보 디자인 및 기능 구현     
+        * 전통주 추천 기능 구현
+        * 페이징 기능 구현
+        * 반응형 웹 구현
+        * [기획 총괄]
+        * 산출문서 총괄
+        * PPT 제작
+        * 프로젝트 최종 발표 담당
+        
+    </td>
+    <td align="center">
+        * 데이터 크롤링
+        * [프론트엔드]
+        * 로그인 , 회원가입 , 회원정보 수정, 전통주 정보 디자인 및 기능 구현
+        * 다크모드 구현
+        * 전통주 추천 기능 구현
+        * 반응형 웹 구현
+        * [기획]
+        * PPT 제작
+    </td>
     <td align="center"><b>Backend</b></td>
     <td align="center"><b>Backend</b></td>
-    <td align="center"><b>Deep Learning</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/jihilli" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/jihoon0127" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
