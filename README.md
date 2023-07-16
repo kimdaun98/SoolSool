@@ -149,7 +149,6 @@
         * 산출문서 총괄
         * PPT 제작
         * 프로젝트 최종 발표 담당
-        
     </td>
     <td align="center">
         * 데이터 크롤링
@@ -161,13 +160,12 @@
         * [기획]
         * PPT 제작
     </td>
-    <td align="center"><b>Backend</b></td>
-    <td align="center"><b>Backend</b></td>
+    <td align="center">blank</td>
+    <td align="center">blank</td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/jihilli" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/jihoon0127" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
   </tr>
