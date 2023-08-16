@@ -165,7 +165,15 @@
         * PPT 제작<br/>
     </td>
     <td align="center">blank</td>
-    <td align="center">blank</td>
+    <td align="center">
+        * 백엔드 기능 구현<br/>
+        <br/>
+        <b>[백엔드]</b><br/>
+        * 로그인 , 회원가입 , 회원정보 수정, 전통주 정보 기능 구현<br/>
+        * 카테고리 기능 구현<br/>
+        * 전통주 추천 기능 구현<br/>
+        <br/>
+    </td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/jihilli" target='_blank'>github</a></td>
